@@ -1,0 +1,28 @@
+Calculator Requirements
+------------------------
+
+- Four system under test-classes
+- Dependency injection
+- Mocked API-code
+- Objects of classes are created outside of setup
+- Project has a console UI
+- Test behaviour using mocks
+- Use xUnit framework, mocking framework and coverage tool
+
+
+model:
+Numbers.cs
+- Holds the current calculation data
+
+view:
+View.cs
+- Shows the data from the model
+- Holds an enum with the view choices: Addition, Subtraction, Multiplication, Division
+
+controller:
+Controller.cs
+- Checks state
+- Has a method named Do() which returns true if it is run
+
+Calculation.cs
+- Does the calculation
