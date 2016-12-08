@@ -9,7 +9,7 @@ using Xunit;
 namespace CalculatorTestProject
 {
    
-    public class Class1
+    public class CalculatorTest
     {
         [Fact]
         public void startProgram()
